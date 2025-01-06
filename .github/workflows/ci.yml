@@ -336,7 +336,7 @@ jobs:
         if [ "${build_host_linux_x86_64}" == "y" ]; then
           MATRIX_TESTENVS+='{
               "name": "ubuntu-20.04-x86_64",
-              "runner": "zephyr-runner-v2-linux-x64-4xlarge",
+              "runner": "Default",
               "container": "ghcr.io/zephyrproject-rtos/ci:master",
               "bundle-host": "linux-x86_64",
               "bundle-archive": "tar.xz"
