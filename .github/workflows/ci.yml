@@ -252,7 +252,7 @@ jobs:
         if [ "${build_host_linux_x86_64}" == "y" ]; then
           MATRIX_HOSTS+='{
               "name": "linux-x86_64",
-              "runner": "zephyr-runner-v2-linux-x64-4xlarge",
+              "runner": "Default",
               "container": "ghcr.io/zephyrproject-rtos/sdk-build:v1.3.2",
               "archive": "tar.xz"
             },'
